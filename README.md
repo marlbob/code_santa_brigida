@@ -1,2 +1,3 @@
 # code_santa_brigida
-Created with CodeSandbox
+aprendiendo html, css, javascript
+con CodeSandbox, github
