@@ -6,7 +6,7 @@
   font-family: "Fredoka", sans-serif;
 }
 body {
-  background-color: blanchedalmond;
+  background-color: chocolate;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,9 @@ body {
   width: 80%;
   margin-top: 10px;
   padding: 10px;
+  background-color: beige;
+  border: 3px solid red;
+  border-radius: 20px;
 }
 .header .banner {
   display: flex;
@@ -24,8 +27,7 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  background-color: coral;
-  border-radius: 10px 10px 0 0;
+
   padding: 20px;
 }
 .header .banner .img_banner img {
@@ -33,14 +35,14 @@ body {
 }
 .header .banner .text h3 {
   font-size: 2rem;
-  color: yellow;
+  color: red;
 }
+/*fin header*/
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: aqua;
-  border-radius: 0 0 10px 10px;
 }
 .nav a {
   text-decoration: none;
@@ -50,4 +52,12 @@ body {
   border: 3px solid blue;
   border-radius: 5px;
   box-shadow: 3px 3px 5px gray;
+  background-color: cyan;
+}
+/*fin nav*/
+.info {
+  display: flex;
+
+  background-color: rosybrown;
+  width: 80%;
 }
